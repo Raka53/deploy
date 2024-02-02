@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=public_html/hris.rakafajar.com
+    - export DEPLOYPATH=public_html/hris.rakafajar.com/iya
     - /bin/cp -r * $DEPLOYPATH
