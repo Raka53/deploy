@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=public_html/hris.rakafajar.com
+    - /bin/cp -r * $DEPLOYPATH
