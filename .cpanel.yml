@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rakz1117/public_html/hris.rakafajar.com/iya
+    - export DEPLOYPATH=/home/rakz1117/public_html/testdeploy
     - /bin/cp -r * $DEPLOYPATH
